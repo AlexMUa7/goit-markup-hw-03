@@ -54,6 +54,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /*Site navigation*/
@@ -72,6 +74,7 @@ body {
 .site-nav.list a:hover,:focus {
     color: var(--accent-color);
 }
+
 
 /*Site navigation footer*/
 
@@ -113,6 +116,7 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
     text-transform: uppercase;
+    margin-top: 0%;
 }
 
 .button {
@@ -120,6 +124,8 @@ body {
     background-color: var();
     font-family: inherit;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 
 .button.primary {
@@ -128,7 +134,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1;
-    display: flex;
+    display: inline-block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -157,6 +163,7 @@ body {
     border-radius: 4px;
     padding: 6px 22px;
     display: inline-block;
+    text-align: center;
 }
 
 .button.nav.portfolio:hover,
@@ -199,6 +206,7 @@ h1.main-header {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--title-header);
+    margin-bottom: 30px;
 }
 
 .header-contacts.list a {
@@ -215,6 +223,7 @@ h1.main-header {
     }
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 
 .title {
@@ -264,11 +273,12 @@ color: #212121;
 }
 
 .container {
-    max-width: 1200 px;
-    padding-left: 15 px;
-    padding-right: 15 px;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    outline: 3px solid red;
 }
 
 .page-header {
@@ -279,8 +289,29 @@ color: #212121;
     font-style: normal;
 }
 
-.images {
-    display: block;
+h1,
+h2,
+h3,
+h4 {
+    margin: 0%;
+}
+
+p {
+    margin: 0%;
+}
+
+.section.features {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.section.our.team {
+    background: #F5F4FA;
+    margin-top: 94px;
+}
+
+.section.portfolio {
+    margin: 94px 215px;
 }
 
 /* основной цвет/ - #212121;
