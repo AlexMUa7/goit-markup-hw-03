@@ -321,6 +321,7 @@ color: #212121;
 
 .page-header {
     background-color: #ffffff;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .address {
@@ -442,17 +443,17 @@ display: flex;
 .portfolio-list.list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    align-items: center;
+    gap: 30px;
 }
 
-.portfolio-list.list:not(:last-child) {
-    margin-right: 30px;
+.portfolio-list.list:nth-child(3n) {
+    margin-right: 0px;
 }
 
 .portfolio-item {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    width: 370px;
 }
 
 .portfolio-title {
