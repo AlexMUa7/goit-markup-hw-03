@@ -317,6 +317,7 @@ color: #212121;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    outline: 3px solid red;
 }
 
 .page-header {
@@ -347,10 +348,6 @@ padding-bottom: 50px;
 .section.our.team {
     background: #F5F4FA;
     margin-top: 94px;
-}
-
-.section.portfolio {
-    margin: 94px 215px;
 }
 
 .container.page-footer {
@@ -425,6 +422,53 @@ margin-right: 30px;
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+
+/* Porfolio*/
+
+.site-nav.portfolio.list {
+display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin-right: 0px;
+}
+
+.filter.button:not(:last-child) {
+    margin-right: 8px;
+}
+
+/*porfolio list*/
+
+.portfolio-list.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
+
+.portfolio-list.list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.portfolio-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+
+.portfolio-description {
+    margin-left: 24px;
+    margin-bottom: 20px;
+}
+
+.porfolio.navigation.container {
+    padding-bottom: 94px;
 }
 /* вторичный цвет - #757575;
 
