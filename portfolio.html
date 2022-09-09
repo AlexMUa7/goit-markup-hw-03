@@ -24,7 +24,7 @@
           <a class="logo link" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
           >
-          <ul class="site-nav list header">
+          <ul class="site-nav list">
             <li class="item">
               <a href="./index.html" class="link">Студiя</a>
             </li>
@@ -48,29 +48,23 @@
     </header>
     <main>
       <section class="section portfolio">
-        <div class="porfolio navigation container">
+        <div class="container">
           <h1 hidden class="section">Портфолiо</h1>
-          <ul class="site-nav portfolio list">
-            <li class="filter button">
-              <button type="button" class="button nav portfolio">Усi</button>
+          <ul class="portfolio-filters list">
+            <li class="filter">
+              <button type="button" class="filter-button">Усi</button>
             </li>
-            <li class="filter button">
-              <button type="button" class="button nav portfolio">
-                Веб-сайти
-              </button>
+            <li class="filter">
+              <button type="button" class="filter-button">Веб-сайти</button>
             </li>
-            <li class="filter button">
-              <button type="button" class="button nav portfolio">
-                Додатки
-              </button>
+            <li class="filter">
+              <button type="button" class="filter-button">Додатки</button>
             </li>
-            <li class="filter button">
-              <button type="button" class="button nav portfolio">Дизайн</button>
+            <li class="filter">
+              <button type="button" class="filter-button">Дизайн</button>
             </li>
-            <li class="filter button">
-              <button type="button" class="button nav portfolio">
-                Маркетинг
-              </button>
+            <li class="filter">
+              <button type="button" class="filter-button">Маркетинг</button>
             </li>
           </ul>
           <ul class="portfolio-list list">
@@ -81,8 +75,10 @@
                   alt="laptop with pictures"
                   width="370"
                 />
-                <h2 class="portfolio-title">Технокряк</h2>
-                <p class="portfolio-description">Веб-сайт</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-description">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -92,10 +88,12 @@
                   alt="basketbol-players"
                   width="370"
                 />
-                <h2 class="portfolio-title">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="portfolio-description">Дизайн</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-description">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -105,8 +103,10 @@
                   alt="logo-of-seafood-reustaurant"
                   width="370"
                 />
-                <h2 class="portfolio-title">Ресторан Seafood</h2>
-                <p class="portfolio-description">Додаток</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-description">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -116,22 +116,28 @@
                   alt="headphones"
                   width="370"
                 />
-                <h2 class="portfolio-title">Проєкт Prime</h2>
-                <p class="portfolio-description">Маркетинг</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Проєкт Prime</h2>
+                  <p class="portfolio-description">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a class="portfolio-card link" href="./portfolio.html"
                 ><img src="./images/boxes.jpg" alt="two-boxes" width="370" />
-                <h2 class="portfolio-title">Проєкт Boxes</h2>
-                <p class="portfolio-description">Додаток</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Проєкт Boxes</h2>
+                  <p class="portfolio-description">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a class="portfolio-card link" href="./portfolio.html"
                 ><img src="./images/laptop.jpg" alt="laptop" width="370" />
-                <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                <p class="portfolio-description">Веб-сайти</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-description">Веб-сайти</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -141,8 +147,10 @@
                   alt="book-with-pictures"
                   width="370"
                 />
-                <h2 class="portfolio-title">Видання Limited Edition</h2>
-                <p class="portfolio-description">Дизайн</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Видання Limited Edition</h2>
+                  <p class="portfolio-description">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -152,8 +160,10 @@
                   alt="Label-tag"
                   width="370"
                 />
-                <h2 class="portfolio-title">Проєкт LAB</h2>
-                <p class="portfolio-description">Маркетинг</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Проєкт LAB</h2>
+                  <p class="portfolio-description">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -163,8 +173,10 @@
                   alt="Laptop-with-hands"
                   width="370"
                 />
-                <h2 class="portfolio-title">Growing Business</h2>
-                <p class="portfolio-description">Додаток</p>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-description">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
