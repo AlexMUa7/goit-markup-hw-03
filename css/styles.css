@@ -299,7 +299,9 @@ color: #757575;
 .hero {
     background-color: #2F303A;
     text-align: center;
+    padding: 200px 0;
 }
+
 
 
 .title {
